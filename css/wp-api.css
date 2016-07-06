@@ -46,7 +46,8 @@
 
 .wp-links
 {
-    width: 30%;
+    width: auto;
+    margin-left: 1em;
     position: relative;
     float: left;
 }
@@ -56,6 +57,7 @@
     width: 70%;
     position: relative;
     float: left;
+    min-width: 400px;
 }
 
 .wp-button
@@ -71,6 +73,8 @@
     background: #d54e21;
     line-height: 44px;
     margin-bottom: 0.3em;
+    width: 100%;
+    min-width: 180px;
 }
 
 .wp-tags > ul
